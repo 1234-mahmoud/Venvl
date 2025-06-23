@@ -13,21 +13,21 @@ const path = usePathname()
     `}>
       {/* Logo */}
       <div className="logo">
-        <h1 className="font-bold font-worksans text-[48px]">VENVL</h1>
+        <h1 className="font-bold font-worksans text-[48px] h-full">VENVL</h1>
       </div>
 
       {/* Desktop Navigation */}
       <nav className="nav w-full max-w-[590px] justify-between items-center hidden lg:flex">
-        <Link href="/" className={`h-[54px] font-semibold font-inter text-[18px]
+        <Link href="/" className={` font-semibold font-inter text-[18px]
           ${path ==='/'?classes.nav_link:undefined}
           `}>Home</Link>
-        <Link href="/about" className={`h-[54px] font-semibold font-inter text-[18px]
+        <Link href="/about" className={` font-semibold font-inter text-[18px]
           ${path ==='/about'?classes.nav_link:undefined}
           `}>About</Link>
-        <Link href="/featured" className={`h-[54px] font-semibold font-inter text-[18px]
+        <Link href="/featured" className={` font-semibold font-inter text-[18px]
           ${path ==='/featured'?classes.nav_link:undefined}
           `}>Featured</Link>
-        <Link href="/contact" className={`h-[54px] font-semibold font-inter text-[18px]
+        <Link href="/contact" className={` font-semibold font-inter text-[18px]
           ${path ==='/contact'?classes.nav_link:undefined}
           `}>Contact Us</Link>
       </nav>
