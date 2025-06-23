@@ -1,6 +1,7 @@
 'use client';
 import { useState } from "react";
 import Link from "next/link";
+import { HiOutlineViewList } from "react-icons/hi";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ const Header = () => {
       </nav>
 
       {/* Desktop Utilities */}
-      <div className="utili flex gap-[40px] hidden md:flex">
+      <div className="utili hidden md:flex gap-[40px] ">
         <select>
           <option value="">Arabic</option>
           <option value="">English</option>
@@ -32,9 +33,8 @@ const Header = () => {
       {/* Hamburger Icon - Mobile */}
       <div className="md:hidden z-50">
         <button onClick={() => setIsOpen(true)}>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
+         <HiOutlineViewList className="w-[40px] h-[40px]"/>
+
         </button>
       </div>
 
