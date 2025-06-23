@@ -46,12 +46,14 @@ const Banar = () => {
     </div>
     {/* -------------------------Explore---------------------------------------- */}
     <div className={`explore w-full max-w-[846px] h-[96px] absolute bottom-[-48px] left-1/2 translate-x-[-50%] bg-white rounded-md
-        flex justify-between items-center
+        flex justify-between items-center 
         text-[20px] font-bold
+        max-sm:h-[130px] max-sm:flex-wrap
         max-lg:h-[70px]
         `}>
            <div className={`sel px-[40px] py-[24px]
             flex justify-between w-full max-w-[650px]
+            max-md:px-[10px]
             `}>
             <select name="" id="" >
                 <option>Location</option>
@@ -75,7 +77,9 @@ const Banar = () => {
             {/* ---------- */}
 
            </div>
-           <button className={`w-[196px] bg-black text-white h-full rounded-tr-md rounded-br-md`}>Explore Now</button>
+           <button className={`w-[196px] bg-black text-white h-full rounded-tr-md rounded-br-md
+            max-sm:h-[70px] max-sm:w-full
+            `}>Explore Now</button>
     </div>
     </div>
   );

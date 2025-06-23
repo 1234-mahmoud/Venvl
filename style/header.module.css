@@ -1,0 +1,16 @@
+.nav_link{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.nav_link::after{
+content: "";
+width:calc(100% + 30px);
+margin: auto;
+height: 2px;
+background-color: black;
+position: absolute;
+bottom: 0;
+left: -15px;
+right: 0;
+}

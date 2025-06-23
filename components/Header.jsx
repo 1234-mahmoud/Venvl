@@ -2,27 +2,38 @@
 import { useState } from "react";
 import Link from "next/link";
 import { HiOutlineViewList } from "react-icons/hi";
-
+import { usePathname } from "next/navigation";
+import classes from '../style/header.module.css'
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+const path = usePathname()
   return (
-    <div className="w-full max-w-[1280px] mx-auto mt-[24px] h-[56px] flex justify-between items-center relative px-4">
+    <div className={`w-full max-w-[1280px] mx-auto mt-[24px] h-[56px] flex justify-between items-center relative px-4
+    
+    `}>
       {/* Logo */}
       <div className="logo">
         <h1 className="font-bold font-worksans text-[48px]">VENVL</h1>
       </div>
 
       {/* Desktop Navigation */}
-      <nav className="nav w-full max-w-[590px] justify-between items-center hidden md:flex">
-        <Link href="/" className="font-semibold font-inter text-[18px]">Home</Link>
-        <Link href="/about" className="font-semibold font-inter text-[18px]">About</Link>
-        <Link href="/featured" className="font-semibold font-inter text-[18px]">Featured</Link>
-        <Link href="/contact" className="font-semibold font-inter text-[18px]">Contact Us</Link>
+      <nav className="nav w-full max-w-[590px] justify-between items-center hidden lg:flex">
+        <Link href="/" className={`h-[54px] font-semibold font-inter text-[18px]
+          ${path ==='/'?classes.nav_link:undefined}
+          `}>Home</Link>
+        <Link href="/about" className={`h-[54px] font-semibold font-inter text-[18px]
+          ${path ==='/about'?classes.nav_link:undefined}
+          `}>About</Link>
+        <Link href="/featured" className={`h-[54px] font-semibold font-inter text-[18px]
+          ${path ==='/featured'?classes.nav_link:undefined}
+          `}>Featured</Link>
+        <Link href="/contact" className={`h-[54px] font-semibold font-inter text-[18px]
+          ${path ==='/contact'?classes.nav_link:undefined}
+          `}>Contact Us</Link>
       </nav>
 
       {/* Desktop Utilities */}
-      <div className="utili hidden md:flex gap-[40px]">
+      <div className="utili hidden lg:flex gap-[40px]">
         <select>
           <option value="">Arabic</option>
           <option value="">English</option>
@@ -31,7 +42,7 @@ const Header = () => {
       </div>
 
       {/* Hamburger Icon - Mobile */}
-      <div className="md:hidden z-50">
+      <div className="lg:hidden z-50">
         <button onClick={() => setIsOpen(true)}>
           <HiOutlineViewList className="w-[40px] h-[40px]" />
         </button>
