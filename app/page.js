@@ -2,6 +2,9 @@ import Explore from "@/components/Explore";
 import Banar from "../components/Banar";
 import Image from "next/image";
 import Trust from "@/components/Trust";
+import Stays from "@/components/Stays";
+import ClientExp from "@/components/ClientExp";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -9,6 +12,9 @@ export default function Home() {
     <Banar/>
     <Explore/>
     <Trust/>
+    <Stays/>
+    <ClientExp/>
+    <Footer/>
     </div>
   );
 }

@@ -29,7 +29,7 @@ const Trust = () => {
         {/* ------badge1---- */}
         <div
           className={`${classes.badge} px-[25px] py-[10px] w-[305px] h-[92px] flex flex-col gap-[8px] rounded-md text-white absolute right-[-50px] top-1/2 translate-y-[-50%]
-          max-lg:right-0
+          max-xl:right-0
           `}
         >
           <p>24/7 Customer Support </p>
