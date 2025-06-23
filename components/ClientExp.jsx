@@ -8,7 +8,7 @@ const ClientExp = () => {
     `}>
           {/* --------bg-image--------------- */}
 
-        <div className={`bg-[url('/estatebg.png')] bg-cover bg-center rounded-md brightness-90 w-full h-full absolute z-0`}></div>
+        <div className={`bg-[url('/estatebg.png')] bg-cover bg-center rounded-tl-md rounded-tr-md brightness-90 w-full h-full absolute z-0`}></div>
       <div className="z-10 relative">
           {/* --------box1--------------- */}
         <div className={`flex justify-between items-center p-[10px]`}>
