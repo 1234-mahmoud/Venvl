@@ -33,7 +33,7 @@ const path = usePathname()
       </nav>
 
       {/* Desktop Utilities */}
-      <div className="utili hidden lg:flex gap-[40px] mt-[-20px]">
+      <div className="utili hidden lg:flex gap-[40px]">
         <select>
           <option value="">Arabic</option>
           <option value="">English</option>
