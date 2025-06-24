@@ -18,7 +18,7 @@ const Units = () => {
   const roomOptions = ["1", "2", "3", "+4"];
 
   return (
-    <div className="my-[50px] w-full max-w-[1280px] mx-auto bg-amber-100">
+    <div className="my-[50px] w-full max-w-[1280px] mx-auto ">
       {/* ------------------------------- Search & Filters ------------------------------- */}
       <div className="flex flex-col gap-[20px]">
         <div className="search flex gap-[12px]">
@@ -56,11 +56,11 @@ const Units = () => {
 
       {/* ------------------------------- Side Filter && units ------------------------------- */}
 
-      <div className={`flex bg-green-700 gap-[16px] my-[40px]
+      <div className={`flex  gap-[16px] my-[40px]
         max-md:flex-col
         `}>
         {/* ----------------------------side filter----------------- */}
-        <div className={`w-[335px]  bg-blue-300 
+        <div className={`w-[335px]  bg-white 
             max-md:w-full
             `}>
           <div className={`w-[311px] mx-auto
@@ -181,7 +181,7 @@ const Units = () => {
             </div>
           </div>
           {/* -----------------------------------------units-------------------------------------- */}
-          <div className="real_estates w-full max-w-[929px] my-[20px] flex gap-[16px] flex-wrap justify-center bg-red-300">
+          <div className="real_estates w-full max-w-[929px] my-[20px] flex gap-[16px] flex-wrap justify-center ">
             {/* ---------------------------card--------------------------- */}
 
             <div
