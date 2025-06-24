@@ -4,8 +4,9 @@ import classes from '../style/banar.module.css'
 import Link from "next/link";
 const Banar = () => {
   return (
-    <div className={`relative`}>
-        <div className={`relative h-[576px] ${classes.gradient} rounded-md
+    <div className={`relative ${classes.gradient}`}>
+      <div className={`w-full max-w-[1280px] mx-auto`}>
+          <div className={`relative h-[576px]  rounded-md
     max-xl:h-[380px]
     `}>
       <div
@@ -82,6 +83,7 @@ const Banar = () => {
             max-sm:h-[70px] max-sm:w-full
             `}>Explore Now</button>
     </div>
+      </div>
     </div>
   );
 };
