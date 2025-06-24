@@ -9,14 +9,17 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div>
-    <Banar/>
+      <Banar />
       <div className="container w-full max-w-[1280px] mx-auto my-[40px] max-lg:mx-0 max-lg:px-[10px] ">
-    <Explore/>
-    <Trust/>
+        <Explore />
+        <Trust />
       </div>
-    <Stays/>
-    <ClientExp/>
-    <Footer/>
+      <Stays />
+      <div className="container w-full max-w-[1280px] mx-auto my-[40px] max-lg:mx-0 max-lg:px-[10px] ">
+
+      <ClientExp />
+      </div>
+      <Footer />
     </div>
   );
 }
