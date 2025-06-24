@@ -14,8 +14,8 @@ export default function Home() {
       <div className="container w-full max-w-[1280px] mx-auto my-[40px] max-lg:mx-0 max-lg:px-[10px] ">
     <Trust/>
     <Stays/>
-    <ClientExp/>
       </div>
+    <ClientExp/>
     <Footer/>
     </div>
   );
