@@ -42,12 +42,12 @@ const Header = () => {
           About
         </Link>
         <Link
-          href="/featured"
+          href="/units"
           className={` font-semibold font-inter text-[18px]
-          ${path === "/featured" ? classes.nav_link : undefined}
+          ${path === "/units" ? classes.nav_link : undefined}
           `}
         >
-          Featured
+          Units
         </Link>
         <Link
           href="/contact"
