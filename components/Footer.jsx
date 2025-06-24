@@ -6,12 +6,11 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className={`w-full h-[377px] bg-black text-white flex justify-center items-center
-            max-xl:h-full max-xl:flex-wrap px-[100px]
-            max-xl:px-[10px]
+            max-xl:h-full max-xl:flex-wrap 
     
     `}>
       <div
-        className={`w-full h-[252px] border-b-2 border-white
+        className={`w-full max-w-[1280px] h-[252px] border-b-2 border-white
             max-xl:h-full
 
             `}
