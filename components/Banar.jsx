@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { GoArrowUpLeft } from "react-icons/go";
 import classes from '../style/banar.module.css'
+import Link from "next/link";
 const Banar = () => {
   return (
     <div className={`relative`}>
@@ -34,9 +35,9 @@ const Banar = () => {
           </p>
         </div>
         <button
-          className={`flex justify-center items-center gap-[10px] bg-black w-[198px] h-[40px] text-white rounded-md`}
+          className={` bg-black w-[198px] h-[40px] text-white rounded-md`}
         >
-          <GoArrowUpLeft className={`text-[20px]`} /> Start Exploring
+                        <Link href='/units' className="flex justify-center items-center gap-[10px]"> <GoArrowUpLeft className={`text-[20px]`} /> Start Exploring</Link>
         </button>
       </div>
       {/* ------------------------- */}
