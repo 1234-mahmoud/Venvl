@@ -34,8 +34,9 @@ const Explore = () => {
 
        <div
           className={`estate w-[413px]
-            max-sm:w-full
+            max-sm:w-[330px]
             max-md:w-[300px]
+            max-lg:w-[350px]
             h-[519px] flex flex-col gap-[12px] px-[16px] pt-[16px] pb-[32px] bg-white rounded-md`}
         >
           <div className={`img h-[360px] overflow-hidden relative rounded-md`}>
@@ -64,8 +65,9 @@ const Explore = () => {
 
         <div
           className={`estate w-[413px]
-            max-sm:w-full
+            max-sm:w-[330px]
             max-md:w-[300px]
+            max-lg:w-[350px]
             h-[519px] flex flex-col gap-[12px] px-[16px] pt-[16px] pb-[32px] bg-white rounded-md`}
         >
           <div className={`img h-[360px] overflow-hidden relative rounded-md`}>
@@ -94,8 +96,9 @@ const Explore = () => {
 
       <div
           className={`estate w-[413px]
-            max-sm:w-full
+            max-sm:w-[330px]
             max-md:w-[300px]
+            max-lg:w-[350px]
             h-[519px] flex flex-col gap-[12px] px-[16px] pt-[16px] pb-[32px] bg-white rounded-md`}
         >
           <div className={`img h-[360px] overflow-hidden relative rounded-md`}>
@@ -124,8 +127,9 @@ const Explore = () => {
 
         <div
           className={`estate w-[413px]
-            max-sm:w-full
+            max-sm:w-[330px]
             max-md:w-[300px]
+            max-lg:w-[350px]
             h-[519px] flex flex-col gap-[12px] px-[16px] pt-[16px] pb-[32px] bg-white rounded-md`}
         >
           <div className={`img h-[360px] overflow-hidden relative rounded-md`}>
@@ -154,8 +158,9 @@ const Explore = () => {
 
         <div
           className={`estate w-[413px]
-            max-sm:w-full
+            max-sm:w-[330px]
             max-md:w-[300px]
+            max-lg:w-[350px]
             h-[519px] flex flex-col gap-[12px] px-[16px] pt-[16px] pb-[32px] bg-white rounded-md`}
         >
           <div className={`img h-[360px] overflow-hidden relative rounded-md`}>
@@ -184,8 +189,9 @@ const Explore = () => {
 
          <div
           className={`estate w-[413px]
-            max-sm:w-full
+            max-sm:w-[330px]
             max-md:w-[300px]
+            max-lg:w-[350px]
             h-[519px] flex flex-col gap-[12px] px-[16px] pt-[16px] pb-[32px] bg-white rounded-md`}
         >
           <div className={`img h-[360px] overflow-hidden relative rounded-md`}>
