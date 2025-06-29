@@ -48,25 +48,25 @@ const About = () => {
             `}>
           <div className={`w-[116px] h-[126px] flex flex-col justify-between items-center`}>
             <div className={`img w-[88px] h-[88px] bg-black flex justify-center items-center shadow-[-8px_-8px_0px_#B0B0B0]`}>
-              <Image src="/transparency.svg" width={40} height={40} />
+              <Image alt='Transparency' src="/transparency.svg" width={40} height={40} />
             </div>
             <span className={`text-[18px] font-inter`}>Transparency</span>
           </div>
           <div className={`w-[116px] h-[126px] flex flex-col justify-between items-center`}>
             <div className={`img w-[88px] h-[88px] bg-black flex justify-center items-center shadow-[-8px_-8px_0px_#B0B0B0]`}>
-              <Image src="/school-tie.svg" width={40} height={40} />
+              <Image alt='Professionalism' src="/school-tie.svg" width={40} height={40} />
             </div>
             <span className={`text-[18px] font-inter`}>Professionalism</span>
           </div>
           <div className={`w-[116px] h-[126px] flex flex-col justify-between items-center`}>
             <div className={`img w-[88px] h-[88px] bg-black flex justify-center items-center shadow-[-8px_-8px_0px_#B0B0B0]`}>
-              <Image src="/ai-innovation-03.svg" width={40} height={40} />
+              <Image alt='Innovation' src="/ai-innovation-03.svg" width={40} height={40} />
             </div>
             <span className={`text-[18px] font-inter`}>Innovation</span>
           </div>
           <div className={`w-[101px] h-[148px] flex flex-col justify-between items-center`}>
             <div className={`img w-[88px] h-[88px] bg-black flex justify-center items-center shadow-[-8px_-8px_0px_#B0B0B0]`}>
-              <Image src="/favourite.svg" width={40} height={40} />
+              <Image alt='Customer Satisfaction' src="/favourite.svg" width={40} height={40} />
             </div>
               <span className={`text-[18px] font-inter`}>Customer Satisfaction</span>
           </div>
