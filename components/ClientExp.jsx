@@ -4,14 +4,15 @@ import { IoMdStarOutline } from "react-icons/io";
 const ClientExp = () => {
     return <div className={`h-[502px] rounded-md
     flex flex-col gap-[40px] justify-center items-center relative text-white p-[10px]
-    max-lg:h-full
+    max-xl:h-full 
     `}>
           {/* --------bg-image--------------- */}
 
         <div className={`bg-[url('/estatebg.png')] bg-cover bg-center rounded-tl-md rounded-tr-md brightness-90 w-full h-full absolute z-0`}></div>
       <div className="z-10 relative">
           {/* --------box1--------------- */}
-        <div className={`flex justify-between items-center p-[10px]`}>
+        <div className={`flex justify-between items-center p-[10px]
+            `}>
             <div>
                 <h1 className={`text-[40px] font-semibold
                     max-md:text-[28px]
@@ -22,13 +23,16 @@ const ClientExp = () => {
         </div>
 
         {/* --------box2--------------- */}
-        <div className="flex flex-col gap-[20px] px-[10px]">
+        <div className="flex flex-col gap-[20px] px-[10px] ">
             <div className={`block1 flex justify-between gap-[20px]
-                  max-lg:flex-wrap
+                  max-lg:flex-wrap 
                 `}>
                 {/* --------------------------- */}
                 <div className={`rev max-xl:h-full
-                    w-full max-w-[414px] h-[111px] bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                    bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                    max-md:w-full max-md:h-full
+                    max-xl:w-[330px]  max-xl:justify-center 
+                    2xl: w-[414px] 2xl:h-[111px]
                     `}>
                     <div className="flex justify-between  ">
                         <span className="">
@@ -46,7 +50,7 @@ const ClientExp = () => {
                                23 sunnyvale Rd
                         </span>
                     </div>
-                    <div></div>
+                    
                     <p className={`text-[12px] font-inter`}>
                         The apartment was exactly like the photos, the host was helpful, 
                         and the check-in process was super smooth. Highly recommended
@@ -55,7 +59,10 @@ const ClientExp = () => {
                 {/* --------------------------- */}
 
                 <div className={`rev max-xl:h-full
-                    w-full max-w-[414px] h-[111px] bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                   bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                  max-md:w-full max-md:h-full                   
+                    max-xl:w-[330px]  max-xl:justify-center 
+                    2xl: w-[414px] 2xl:h-[111px]
                     `}>
                     <div className="flex justify-between  ">
                         <span className="">
@@ -82,7 +89,10 @@ const ClientExp = () => {
 
                   {/* --------------------------- */}
                 <div className={`rev max-xl:h-full
-                    w-full max-w-[414px] h-[111px] bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                    bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                    max-md:w-full max-md:h-full
+                    max-xl:w-[330px]  max-xl:justify-center 
+                    2xl: w-[414px] 2xl:h-[111px]
                     `}>
                     <div className="flex justify-between  ">
                         <span className="">
@@ -110,12 +120,16 @@ const ClientExp = () => {
                 
             </div>
             <div className={`block2 flex justify-center items-center gap-[100px]
+            max-md:gap-[20px]
                   max-lg:flex-wrap
                 `}>
 
                 {/* --------------------------- */}
                 <div className={`rev max-xl:h-full
-                    w-full max-w-[414px] h-[111px] bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                    bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                   max-md:w-full max-md:h-full
+                   max-xl:w-[330px]  max-xl:justify-center 
+                    2xl: w-[414px] 2xl:h-[111px]
                     `}>
                     <div className="flex justify-between  items-center">
                         <span className="">
@@ -141,7 +155,10 @@ const ClientExp = () => {
                 </div>
                 {/* --------------------------- */}
                 <div className={`rev max-xl:h-full
-                    w-full max-w-[414px] h-[111px] bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                   bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                   max-md:w-full max-md:h-full
+                   max-xl:w-[330px]  max-xl:justify-center 
+                    2xl: w-[414px] 2xl:h-[111px]
                     `}>
                     <div className="flex justify-between  ">
                         <span className="">
@@ -172,7 +189,10 @@ const ClientExp = () => {
                 `}>
 
                    <div className={`rev max-xl:h-full
-                    w-full max-w-[414px] h-[111px] bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                    bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                   max-md:w-full max-md:h-full
+                   max-xl:w-[330px]  max-xl:justify-center 
+                    2xl: w-[414px] 2xl:h-[111px]
                     `}>
                     <div className="flex justify-between  ">
                         <span className="">
@@ -198,7 +218,10 @@ const ClientExp = () => {
                 </div>
                 {/* --------------------------- */}
                    <div className={`rev max-xl:h-full
-                    w-full max-w-[414px] h-[111px] bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                  bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                 max-md:w-full max-md:h-full
+                 max-xl:w-[330px]  max-xl:justify-center 
+                    2xl: w-[414px] 2xl:h-[111px]
                     `}>
                     <div className="flex justify-between  ">
                         <span className="">
@@ -224,7 +247,10 @@ const ClientExp = () => {
                 </div>
                 {/* --------------------------- */}
                    <div className={`rev max-xl:h-full
-                    w-full max-w-[414px] h-[111px] bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                    bg-white/30 flex flex-col gap-[8px] px-[16px] py-[8px] rounded-md
+                    max-md:w-full max-md:h-full
+                    max-xl:w-[330px]  max-xl:justify-center 
+                    2xl: w-[414px] 2xl:h-[111px]
                     `}>
                     <div className="flex justify-between  ">
                         <span className="">

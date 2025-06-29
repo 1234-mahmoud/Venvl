@@ -13,6 +13,7 @@ const Trust = () => {
         <div
           className={`img w-[285px] h-[367px] overflow-hidden relative left-[150px] bottom-[-100px] z-10
             max-sm:w-[330px]
+            max-md:w-full max-md:h-[450px]
            max-md:left-0 max-md:z-0
             `}
         >
