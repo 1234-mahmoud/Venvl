@@ -11,6 +11,7 @@ import { LuBath } from "react-icons/lu";
 import { IoBedOutline } from "react-icons/io5";
 import { RxDimensions } from "react-icons/rx";
 import { BiSortAlt2 } from "react-icons/bi";
+import { GoSearch } from "react-icons/go";
 
 const Units = () => {
   const [rangeValue, setRangeValue] = useState([20, 250]);
@@ -21,14 +22,23 @@ const Units = () => {
     <div className="my-[50px] w-full max-w-[1280px] mx-auto ">
       {/* ------------------------------- Search & Filters ------------------------------- */}
       <div className="flex flex-col gap-[20px]">
-        <div className="search flex gap-[12px]">
-          <input
-            type="search"
-            className="w-full h-[56px] bg-white rounded-4xl focus:outline-0 indent-10"
-            placeholder="Search..."
-          />
+      
+         <div className={`relative flex flex-1 flex-shrink-0 gap-3`}>
+      <label htmlFor="search" className="sr-only">
+        Search
+      </label>
+      <input
+        className={`block w-full h-[56px] bg-white rounded-4xl focus:outline-0 indent-10 
+          y-[9px] pl-10 text-sm placeholder:text-gray-500`}
+        placeholder="Search..."
+        onChange={(e) => {
+          handleSearch(e.target.value);
+        }}
+      />
+      <GoSearch  className="absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-gray-900" />
           <button className="w-[56px] h-[56px] rounded-full bg-white">X</button>
-        </div>
+
+    </div>
 
         <div className="explore w-full max-w-[846px] h-[96px] mx-auto bg-white rounded-md flex justify-between items-center text-[20px] font-bold max-sm:h-[130px] max-sm:flex-wrap max-lg:h-[70px]">
           <div className="sel px-[40px] py-[24px] flex justify-between w-full max-w-[650px] max-md:px-[10px]">
