@@ -79,6 +79,9 @@ export const metadata = {
     yandex: 'your-yandex-verification-code',
     yahoo: 'your-yahoo-verification-code',
   },
+  icons:{
+    icon:'/Photoroom.png'
+  }
 };
 
 export default function RootLayout({ children }) {
