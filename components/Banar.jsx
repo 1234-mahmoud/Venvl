@@ -7,7 +7,7 @@ const Banar = () => {
     <div className={`relative ${classes.gradient}`}>
       <div className={`w-full max-w-[1280px] mx-auto`}>
           <div className={`relative h-[576px]  rounded-md
-    max-xl:h-[380px]
+    max-xl:h-[430px] 
     `}>
       <div
         className={`info w-full max-w-[743px] h-[293px]  flex flex-col justify-between 
